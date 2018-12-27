@@ -1,0 +1,52 @@
+.news {
+    &__intro {
+        height: 15em;
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__info {
+        margin-top: 1em;
+
+        &__items {
+            width: 100%;
+        }
+    }
+
+
+    &__item {
+        margin-top: 1em;
+        border: 1px solid $color-principal;
+    }
+
+    &__item-content {
+        padding-right: 1em;
+        padding-left: 1em;
+        padding-bottom: 1em;
+    }
+
+    &__item-image {
+        height: 12em;
+        background-size: cover;
+    }
+
+    &__items-type {
+        font-size: 0.8em;
+        padding-left: 1em;
+    }
+
+    &__item-title {
+        font-size: 1.4em;
+        margin-top: 0.5em;
+        color: $color-principal;
+    }
+
+    &__title {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__item-text {
+        color: rgb(160, 157, 157);
+    }
+}

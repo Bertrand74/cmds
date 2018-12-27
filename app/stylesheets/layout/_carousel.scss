@@ -1,0 +1,22 @@
+.carousel-item-image {
+    height: 60vh;
+    width: 100%;
+}
+
+#carousel {
+    &__text {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 2em;
+        height: auto;
+    }
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .carousel {
+        &__button {}
+    }
+
+}
