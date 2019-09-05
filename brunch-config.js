@@ -19,7 +19,8 @@ exports.plugins = {
     options: {
       includePaths: [
         // déclaration a SASS d'autres fichiers sass
-        'node_modules/bootstrap'
+        'node_modules/bootstrap',
+        'node_modules/slick-carousel'
       ]
     }
   },
@@ -35,19 +36,20 @@ exports.watcher = {
   awaitWriteFinish: true
 }
 exports.npm = {
-    styles: {
-      'normalize.css': ['normalize.css'],
-      'font-awesome': ['css/font-awesome.css'],
-      'bootstrap': ['dist/css/bootstrap.css']
-    },
-    globals: {
-      '$': 'jquery',
-      'jQuery': 'jquery',
-      'rellax': 'rellax',
-      'scrollex': 'jquery.scrollex',
-      'bootstrap': 'bootstrap'
-    }
+  styles: {
+    'normalize.css': ['normalize.css'],
+    'font-awesome': ['css/font-awesome.css'],
+    'bootstrap': ['dist/css/bootstrap.css'],
+    'slick-carousel': ['slick']
   },
+  globals: {
+    '$': 'jquery',
+    'jQuery': 'jquery',
+    'scrollex': 'jquery.scrollex',
+    'bootstrap': 'bootstrap',
+    'slick': 'slick-carousel'
+  }
+},
   exports.modules = {
     autoRequire: {
       'js/app.js': ['initialize'],

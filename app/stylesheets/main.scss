@@ -1,12 +1,17 @@
+@import 'base/base';
 @import 'vars/variables';
-@import 'component/navbar';
-@import 'component/carousel';
+@import 'component/font-awesome';
 @import 'component/button-actualities';
 @import 'component/button-project';
 @import 'component/section-title';
 @import 'component/introduction-title';
 @import 'component/footer-contact';
+@import 'layout/body';
 @import 'layout/carousel';
 @import 'layout/actualities';
+@import 'layout/contact';
+@import 'layout/_single-post-desk';
+@import 'layout/_single-post-workshop';
+@import 'layout/_single-post-assembly';
 
 @import 'shame';

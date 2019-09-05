@@ -1,22 +1,19 @@
-.carousel-item-image {
-    height: 60vh;
+.carousel {
+  width: 65%;
+  margin: auto;
+}
+
+.slick-slide {
+    img {
+    height:400px;
     width: 100%;
-}
-
-#carousel {
-    &__text {
-        text-align: center;
-        text-transform: uppercase;
-        margin-bottom: 2em;
-        height: auto;
     }
 }
 
+.slick-dots li button:before {
+  font-size: 3.125rem;
+}
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-    .carousel {
-        &__button {}
-    }
-
+.carousel {
+  margin-top: 4rem;
 }

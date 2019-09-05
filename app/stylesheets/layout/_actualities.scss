@@ -16,7 +16,8 @@
 
     &__item {
         margin-top: 1em;
-        border: 1px solid $color-principal;
+        border: 1.5px solid $color-principal;
+        border-radius: 1.5rem;
     }
 
     &__item-content {
@@ -26,7 +27,11 @@
     }
 
     &__item-image {
-        height: 12em;
+        // height: 12rem;
+        // width: 50%;
+        // margin: auto;
+        background: no-repeat center top;
+        background-repeat: no-repeat;
         background-size: cover;
     }
 
@@ -36,7 +41,7 @@
     }
 
     &__item-title {
-        font-size: 1.4em;
+        font-size: 2em;
         margin-top: 0.5em;
         color: $color-principal;
     }

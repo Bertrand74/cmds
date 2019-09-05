@@ -1,11 +1,5 @@
-<?php get_header(); ?>
- 
-<?php get_template_part('template-parts/front-page/carousel') ; ?>
+<?php get_header(); 
 
-<?php get_template_part('template-parts/front-page/description') ; ?>
-  
-<?php get_template_part('template-parts/front-page/actualities') ; ?>
+     echo('Vous etes actuellement sur le template index.php cliquer sur le bouton pour revenir à l\'accueil'. '<br/>'); 
 
-<?php get_template_part('template-parts/front-page/projects') ; ?>  
-  
-<?php get_footer(); ?>
+get_footer(); 

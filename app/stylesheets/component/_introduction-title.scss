@@ -1,6 +1,13 @@
 .introduction {
+     background-image: url('https://image.freepik.com/free-vector/brushed-metallic-background_1048-120.jpg');
+     background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     &__title {
         color: $color-principal;
         text-decoration: underline;
+        font-weight: 700;
+        margin-top: 1rem;       
     }
 }

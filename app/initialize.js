@@ -1,4 +1,18 @@
-document.addEventListener('DOMContentLoaded', function() {
-  // do your setup here
-  console.log('Initialized app');
-});
+var app = {
+
+    init: function () {
+
+        $('.carousel').slick({
+            dots: true,
+            arrows: false,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+        });
+    }
+
+};
+
+$(app.init);
+
+

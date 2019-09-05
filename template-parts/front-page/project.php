@@ -1,10 +1,7 @@
-<div class="card mb-2 p-3" style="width: 15rem;">
-    <div class="card__intro d-flex justify-content-around ">
-    <!-- <img class="card-img-top p-1" src="https://source.unsplash.com/100x100/?hello"> -->
-    </div>
-    <div class="card-body">
-    <h3 class="news__project"><?php the_title(); ?></h3>
-    <p class="card-text"><?php the_excerpt(); ?></p>
-    <button type="button" class="btn btn-info">Voir la suite</button>
-    </div>
+<div class="card" style="width: 18rem;">
+  <img src="<?= get_the_post_thumbnail_url(); ?>" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"><?= the_title();?></h5>
+    <a href="<?= the_permalink();?>" class="btn learn-more-button">Voir la gallerie</a>
+  </div>
 </div>

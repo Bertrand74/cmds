@@ -1,4 +1,4 @@
-<h2 class="news__title mb-3 text-center"> Réalisations </h2>
+<h2 class="news__title mb-3 mt-3 text-center"> Réalisations </h2>
   <div class="cards d-flex justify-content-around flex-wrap">
 
     <?php 
@@ -6,7 +6,7 @@
     $args= [
         'post_type' => 'project',
         'cat' => '',
-        'posts_per_page' => 6,
+        'posts_per_page' => 3,
         'order' => 'DESC',
         'order_by' => 'date'
     ];
@@ -23,8 +23,5 @@ wp_reset_postdata();
 endif; 
 
 ?>
-
-    
-
-  </div>
-  </div>
+</div>
+</div>
