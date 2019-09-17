@@ -2,5 +2,21 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #dddddb;
+    font-size: 16px;
+    line-height: 1.5rem;
+    background: lightgrey;
+}
+
+.row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+        .row {
+        margin: 0 !important;
+        padding: 0 !important;
+        }
 }

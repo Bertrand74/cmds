@@ -1,0 +1,66 @@
+
+
+.introduction {
+    li {
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 0.7em; 
+            height: 0.4rem;
+            left: 20rem;
+            background-color: $primary;
+            transform: rotate(45deg);
+            margin:0.5rem 0.5rem ;                   
+        }
+    }
+   @media screen and (max-width: 600px) {
+    li {
+        position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                left: 1.2rem;    
+                width: 0.7em; 
+                height: 0.4rem;
+                background-color: $primary;
+                transform: rotate(45deg);
+                margin:0.5rem 0.5rem ;
+            }                       
+        }
+    }
+   @media screen and (min-width: 601px) and (max-width: 1200px) {
+    li {
+        position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                left: 7rem;    
+                width: 0.7em; 
+                height: 0.4rem;
+                background-color: $primary;
+                transform: rotate(45deg);
+                margin:0.5rem 0.5rem ;
+            }                       
+        }
+    }
+   @media screen and (min-width: 1201px) {
+    li {
+        position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                left: 19rem;    
+                width: 0.7em; 
+                height: 0.4rem;
+                background-color: $primary;
+                transform: rotate(45deg);
+                margin:0.5rem 0.5rem ;
+            }                       
+        }
+    }
+    &__title {
+        position: relative;
+         @include title;
+    }
+}

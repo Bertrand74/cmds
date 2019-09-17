@@ -1,1 +1,10 @@
-$color-principal : #7552a2;
+// overwrite bootstraps variables
+$theme-colors: (
+  primary: #7653a3,
+);
+
+$primary: #7653a3;
+
+.card-header {
+  background-color: $primary;
+}

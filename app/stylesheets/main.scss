@@ -1,17 +1,23 @@
-@import 'base/base';
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
 @import 'vars/variables';
+@import 'vars/mixins';
+@import 'layout/description';
 @import 'component/font-awesome';
 @import 'component/button-actualities';
 @import 'component/button-project';
 @import 'component/section-title';
-@import 'component/introduction-title';
 @import 'component/footer-contact';
-@import 'layout/body';
+@import 'component/navbar';
 @import 'layout/carousel';
 @import 'layout/actualities';
+@import 'layout/galery';
 @import 'layout/contact';
 @import 'layout/_single-post-desk';
 @import 'layout/_single-post-workshop';
 @import 'layout/_single-post-assembly';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'base/base';
+@import 'base/reset';
 
 @import 'shame';

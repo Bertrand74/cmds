@@ -1,0 +1,9 @@
+.navbar__top {
+    transition: 1500ms;
+}
+
+.navbar__active {
+    background-color: $primary;
+    transition: 1500ms;
+    box-shadow: 0 6px 6px -3px grey;
+}

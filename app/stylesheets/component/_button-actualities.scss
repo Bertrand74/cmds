@@ -1,9 +1,63 @@
-.learn-more-button {
-    background-color: $color-principal;
-    color: white;
+.butn {
+  color: $primary;
+  cursor: pointer;
+  max-width: 160px; 
+  
+//   @media(min-width: 400px) {
+//     display: inline-block;
+//     margin-right: 2.5em;
+  
+//     &:nth-of-type(even) {
+//       margin-right: 0;
+//     }
+//   }
+  
+  @media(min-width: 600px) {
+      
+    margin: 0 1em 2em;
+  
+//     &:nth-of-type(even) {
+//       margin-right: 2.5em;
+//     }
+    
+//     &:nth-of-type(5) {
+//       margin-right: 0;
+//     }
+    
+  }
+  
+  &:hover { text-decoration: none; }
+  
+}
 
-    &:hover {
-        color: white;
-    }
+.btn-4 {
+  border: 1.3px solid $primary;
+  overflow: hidden;
+  position: relative;
+  
+  span {
+    z-index: 20;
+  }
+  
+  &:after {
+    background: $primary;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: .45;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all 1550ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+    z-index: -10;
+  }
+}
 
+.btn-4:hover {
+  
+  &:after {
+    left: 120%;
+    transition: all 3550ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
 }

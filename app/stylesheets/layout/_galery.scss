@@ -1,0 +1,24 @@
+#galery {
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .horizontal {
+        flex: 1 1 570px;
+        padding: 1px;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(70%);
+    }
+    img:hover {
+        filter: brightness(120%);
+        transition: 1500ms;
+    }
+    button {
+       margin: 2rem auto 2rem;
+    }
+}

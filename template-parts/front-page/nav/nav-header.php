@@ -10,6 +10,6 @@
                 ]);
                 
                 $menu = strip_tags($menu, '<a><li class="nav-item"><ul>');              
-                $menu = str_replace('a href', 'a class="nav-link stroke" href', $menu);
+                $menu = str_replace('a href', 'a class="nav-link text-white" style="font-size: 1.5rem;" href ', $menu);
                 
                 echo $menu;

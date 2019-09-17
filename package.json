@@ -10,6 +10,7 @@
     "build": "brunch build --production"
   },
   "dependencies": {
+    "animate.css": "^3.7.2",
     "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
@@ -18,6 +19,7 @@
     "normalize.css": "^8.0.0",
     "popper.js": "^1.15.0",
     "rellax": "^1.10.0",
+    "reset-css": "^4.0.1",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
